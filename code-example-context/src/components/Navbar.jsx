@@ -1,8 +1,8 @@
-export function Navbar() {
+export function Navbar({ increment, decrement }) {
   return (
     <nav className="navbar">
-      <button>Increment Count</button>
-      <button>Decrement Count</button>
+      <button onClick={increment}>Increment Count</button>
+      <button onClick={decrement}>Decrement Count</button>
     </nav>
   );
 }
