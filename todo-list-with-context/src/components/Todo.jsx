@@ -1,5 +1,5 @@
-import { useContext } from 'react';
-import { TodoContext } from '../TodoContextProvider';
+  import { useContext } from 'react';
+  import { TodoContext } from '../TodoContextProvider';
 
 export function Todo({ todo }) {
   const { updateCompletedStatus, removeTodo } = useContext(TodoContext);
